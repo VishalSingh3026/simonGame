@@ -55,3 +55,19 @@ footer{
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.refresh{
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 30px 590px;
+}
+
+
