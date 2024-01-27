@@ -55,6 +55,14 @@ $(document).keypress(function() {
       started = true;
     }
   });
+function clickButton(){
+  if (!started) {
+  
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+ }
 
 $(".btn").click(function() {
 
